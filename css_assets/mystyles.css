@@ -1,0 +1,74 @@
+/*css reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+  h1{
+    color:#ffffff;
+    font-size: 20pt ;
+  }
+  p{ 
+    font-size: 12pt;
+  
+  }
+  .navigation{
+    display:flex;
+    list-style-type: none;
+    gap:20px;
+    background-color:rgb(43, 174, 226);
+  }
+  .navigation a{
+    text-decoration: none;
+    display:block;
+    padding:10px;
+  }
+  header{
+    background-color: aqua;
+  }
+  .container{
+    display:block;
+    grid-template-rows: auto auto auto;
+    /*background-color: white;*/
+  }
+
+  .container div{
+    background-color:azure;
+    margin: 5px;
+    padding: 20px;
+    border-radius:15px;
+  }
+  body{
+    background-color:rgb(4, 69, 134);
+  }
+  .navigation :hover{
+    background-color:aliceblue;
+  }
+  footer{
+    background-color:aliceblue;
+    padding:20px;
+  }
+  @media screen and (min-width: 330px) and (max-width: 768px) {
+  body {
+    background-color: rgb(243, 9, 138);
+  }
+  .navigation{
+    display: block;
+    list-style-type: none;
+    gap:20px;
+    background-color:rgb(43, 174, 226);
+  }
+  .navigation a{
+    text-decoration: none;
+    display:block;
+    padding:10px;
+    font-size: 10pt;
+}
+h1{
+  font-size: 14pt;
+}
+.container{
+    display:block;
+    grid-template-rows: auto auto auto;
+    /*background-color: white;*/
+}
